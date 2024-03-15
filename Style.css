@@ -1,0 +1,97 @@
+/* Estilos.css */
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte principal */
+    font-size: 14px; /* Define o tamanho da fonte padrão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo branca */
+    color: rgb(0, 0, 0); /* Cor do texto preto */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo do contêiner principal com a classe "bola" */
+.bola {
+    display: flex; /* Usa o modelo flexível para organizar os elementos internos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: flex-start; /* Alinha os elementos ao topo */
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilo do cartão de apresentação */
+.cartao {
+    background-color: #fff; /* Cor de fundo branca */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 10px; /* Borda arredondada */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse as bordas do cartão */
+    max-width: 400px; /* Largura máxima do cartão */
+    width: 100%; /* Largura total */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 20px; /* Adiciona margem externa */
+}
+
+/* Estilo do título do cartão */
+.titulo {
+    color: #3498db; /* Cor do texto azul claro */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo da imagem no cartão */
+.imagem {
+    width: 100%; /* Largura total da imagem */
+    border-radius: 10px; /* Borda arredondada */
+    margin-bottom: 15px; /* Adiciona espaço abaixo da imagem */
+}
+
+/* Estilo do nome no cartão */
+.nomes {
+    font-size: 20px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto mais escura */
+    margin-bottom: 15px; /* Adiciona espaço abaixo do nome */
+}
+
+/* Estilo geral do título */
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Define a fonte específica para o título */
+}
+
+/* Estilo geral do título secundário */
+h2 {
+    font-family: "M PLUS 1p", sans-serif; /* Define a fonte específica para o título secundário */
+}
+
+/* Estilo da seção "Sobre Nós" */
+.sobre {
+    display: flex; /* Usa o modelo flexível para organizar os elementos internos */
+    justify-content: space-around; /* Distribui espaço ao redor dos elementos */
+    align-items: flex-start; /* Alinha os elementos ao topo */
+    background-color: lightgray; /* Cor de fundo cinza claro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    width: 100%; /* Largura total */
+    box-sizing: border-box; /* Garante que a largura total inclua padding e bordas */
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
+}
+
+/* Estilo das divs "div-isabel" e "div-joao" dentro da seção "Sobre Nós" */
+.div-isabel,
+.div-joao {
+    width: calc(50% - 20px); /* 50% do contêiner, subtraindo a margem */
+    background-color: white; /* Cor de fundo branca */
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin-bottom: 20px; /* Adiciona espaço abaixo das divs */
+    box-sizing: border-box; /* Garante que a largura total inclua padding e bordas */
+}
+
+/* Estilo das imagens dentro das divs "div-isabel" e "div-joao" */
+.img-isabel,
+.div-joao img {
+    width: 100%; /* Largura total da imagem */
+    border-radius: 50%; /* Borda arredondada para criar uma imagem circular */
+}
+
+/* Estilo do ícone do Instagram nas divs "div-isabel" e "div-joao" */
+.icone-insta {
+    width: 25px; /* Largura do ícone do Instagram */
+}
